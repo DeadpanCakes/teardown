@@ -1,13 +1,14 @@
+import "./Newsletter.css";
 import { useState } from "react";
 
 const Newsletter = () => {
   const [email, setEmail] = useState("");
   return (
-    <aside>
+    <aside className="newsletter">
       <form>
         <hgroup>
           <a href="https://www.smashingmagazine.com/the-smashing-newsletter/">
-            <button></button>
+            <button>Email Newsletter</button>
           </a>
           <h1>Useful front-end & UX tips, delivered once a week.</h1>
           <h2>
