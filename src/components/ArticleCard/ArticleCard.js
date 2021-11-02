@@ -11,13 +11,13 @@ const ArticleCard = ({ article, size }) => {
       <h1>{article.title}</h1>
       <h2>
         {article.date} in{" "}
-        {article.tags.map((tag) => {
+        {article.tags.map((tag, index) => {
           return (
             <p>
               <a href={tag.page} className="tagLink">
-                tag.name
+                {tag.name}
               </a>
-              ,{" "}
+              {index + 1 < article.tags.length ? ", " : ""}
             </p>
           );
         })}
