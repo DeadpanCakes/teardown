@@ -4,7 +4,7 @@ const PageHeader = () => {
   return (
     <header className="pageHeader">
       <nav>
-        <ul>
+        <ul className="headerNav">
           <li>
             <a href="https://www.smashingmagazine.com/">
               <img alt="Smashing Magazine" src={null} />
@@ -41,7 +41,7 @@ const PageHeader = () => {
         </ul>
       </nav>
       <nav className="articleNav">
-        <ul>
+        <ul className="headerNav">
           <li>
             <a href="https://www.smashingmagazine.com/category/accessibility/">
               Accessibility

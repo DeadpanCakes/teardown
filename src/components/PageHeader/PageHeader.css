@@ -5,3 +5,11 @@
 .articleNav {
   background-color: rgb(97, 97, 97);
 }
+
+.headerNav {
+  display: flex;
+}
+
+.headerNav > * {
+  flex: 1;
+}
