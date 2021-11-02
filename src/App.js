@@ -3,6 +3,7 @@ import ArticleCard from "./components/ArticleCard/ArticleCard";
 import GuideCard from "./components/GuideCard/GuideCard";
 import PageFooter from "./components/PageFooter/PageFooter";
 import PageHeader from "./components/PageHeader/PageHeader";
+import Newsletter from "./components/Newsletter/Newsletter";
 
 function App() {
   return (
@@ -52,7 +53,7 @@ function App() {
             },
           ],
         }}
-        size="main"
+        size="secondary"
       />
       <ArticleCard
         article={{
@@ -77,8 +78,9 @@ function App() {
             },
           ],
         }}
-        size="main"
+        size="secondary"
       />
+      <Newsletter />
       <div>
         <GuideCard
           title="Accessible Front-End Components"
