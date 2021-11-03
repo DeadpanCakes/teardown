@@ -13,8 +13,13 @@ header {
 }
 
 .articleNav {
-  background-color: rgb(158, 158, 158);
+  background-color: rgb(204, 204, 204);
+  color: black;
   flex-shrink: 1;
+}
+
+.articleNav a {
+  color: rgb(56, 56, 56);
 }
 
 .headerNav {
