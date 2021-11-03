@@ -6,10 +6,20 @@
     "article sidebar"
     "article sidebar"
     "guide   guide";
+    column-gap: 50px;
 }
 
 .guides {
   grid-area: guide;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.guides > * {
+  min-width: 350px;
+  max-width: 500px;
 }
 
 .App {

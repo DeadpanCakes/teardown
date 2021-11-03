@@ -94,7 +94,7 @@ function App() {
             title="Accessible Front-End Components"
             link="https://www.smashingmagazine.com/2021/03/complete-guide-accessible-front-end-components/"
             linkText="Explore Accessible Components"
-            desc="Explore Accessible Components"
+            desc="Reliable accessible UI components: :focus styles, modals, date pickers, navigation, tables, buttons, SVGs."
           />
           <GuideCard
             title="CSS Generators & Tools"
