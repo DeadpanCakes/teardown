@@ -19,14 +19,16 @@ const Newsletter = () => {
             — in your inbox.{" "}
           </h2>
         </hgroup>
-        <input
-          placeholder="Your email"
-          value={email}
-          onChange={(e) => {
-            setEmail(e.target.value);
-          }}
-        />
-        <button>MEOW!</button>
+        <span>
+          <input
+            placeholder="Your email"
+            value={email}
+            onChange={(e) => {
+              setEmail(e.target.value);
+            }}
+          />
+          <button>MEOW!</button>
+        </span>
       </form>
     </aside>
   );

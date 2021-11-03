@@ -1,3 +1,18 @@
 .newsletter {
-  background-color: rgb(97, 97, 97);
+  background-color: rgb(87, 87, 87);
+}
+
+.newsletter form {
+  min-height: 600px;
+  max-width: 500px;
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter input,
+.newsletter button {
+  height: 70px;
+  color: black;
 }
