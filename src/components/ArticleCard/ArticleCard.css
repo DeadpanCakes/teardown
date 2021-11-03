@@ -4,10 +4,12 @@
   grid-template-areas:
     "pic  byline"
     "desc desc";
+    padding: 20px
 }
 
 .articleSummary {
   grid-area: desc;
+  font-size: 1.5em;
 }
 
 .byline h2 {
