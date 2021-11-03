@@ -3,8 +3,8 @@ import "./PageFooter.css";
 const PageFooter = () => {
   return (
     <footer className="pageFooter">
-      <h1>Brows All Smashing Magazine Topics</h1>
-      <ul>
+      <h1 className="footerTitle">Browse All Smashing Magazine Topics</h1>
+      <ul className="footerNav">
         <li>
           <a href="https://www.smashingmagazine.com/category/accessibility">
             Accessibility
@@ -148,7 +148,7 @@ const PageFooter = () => {
           </a>
         </li>
       </ul>
-      <div>
+      <div className="footerInfo">
         <p>With a commitment to quality content for the design community</p>
         <p>Founded by Vitaly Friedman and Sven Lennartz. 2006-2021.</p>
         <p>
@@ -162,7 +162,7 @@ const PageFooter = () => {
           Fonts by <a href="http://latinotype.com/">Latinotype</a>.
         </p>
       </div>
-      <ul>
+      <ul className="footerContact">
         <li>
           <a href="https://www.smashingmagazine.com/write-for-us/">
             Write for us
