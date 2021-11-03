@@ -1,7 +1,23 @@
+.article {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas:
+    "pic  byline"
+    "desc desc";
+}
+
+.articleSummary {
+  grid-area: desc;
+}
+
 .mainArticle {
-    background-color: rgb(59, 59, 59);
+  background-color: rgb(59, 59, 59);
+  min-height: 350px;
+  margin: 50px;
 }
 
 .secondaryArticle {
-    background-color: rgb(97, 97, 97);
+  background-color: rgb(97, 97, 97);
+  min-height: 150px;
+  margin: 50px;
 }
