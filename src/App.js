@@ -21,6 +21,8 @@ function App() {
               date: "OCT 31, 2021",
               title:
                 "A Splash Of Color For Misty Days (November 2021 Desktop Wallpapers Edition)",
+              summary:
+                "November is just around the corner, and with it, a new collection of desktop wallpapers to celebrate the beginning of the month. Designed by creatives from all across the globe, they come in versions with and without a calendar. Let’s make November colorful!",
               tags: [
                 {
                   name: "Wallpapers",
@@ -28,6 +30,7 @@ function App() {
                     "https://www.smashingmagazine.com/categories/wallpapers",
                 },
               ],
+              link: "https://www.smashingmagazine.com/2021/10/desktop-wallpaper-calendars-november-2021/"
             }}
             size="main"
           />
@@ -56,6 +59,7 @@ function App() {
                     "https://www.smashingmagazine.com/categories/content-strategy",
                 },
               ],
+              link: "https://www.smashingmagazine.com/2021/10/resources-tools-turbocharge-copywriting-skills/"
             }}
             size="secondary"
           />
@@ -84,6 +88,7 @@ function App() {
                   tagLink: "https://www.smashingmagazine.com/categories/tools",
                 },
               ],
+              link: "https://www.smashingmagazine.com/2021/10/building-amazon-product-scraper-nodejs/"
             }}
             size="secondary"
           />
