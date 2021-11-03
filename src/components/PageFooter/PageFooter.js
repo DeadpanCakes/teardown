@@ -1,6 +1,8 @@
+import "./PageFooter.css";
+
 const PageFooter = () => {
   return (
-    <footer>
+    <footer className="pageFooter">
       <h1>Brows All Smashing Magazine Topics</h1>
       <ul>
         <li>
