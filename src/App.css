@@ -1,3 +1,17 @@
+.content {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-areas:
+    "article sidebar"
+    "article sidebar"
+    "article sidebar"
+    "guide   guide";
+}
+
+.guides {
+  grid-area: guide;
+}
+
 .App {
   text-align: center;
 }
