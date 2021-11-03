@@ -3,7 +3,7 @@ import "./PageHeader.css";
 const PageHeader = () => {
   return (
     <header className="pageHeader">
-      <nav>
+      <nav className="primaryNav">
         <ul className="headerNav">
           <li>
             <a href="https://www.smashingmagazine.com/">

@@ -1,13 +1,25 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+
 .pageHeader {
   background-color: rgb(59, 59, 59);
+  min-height: 10vh;
+}
+
+.primaryNav {
+  flex: 1;
 }
 
 .articleNav {
   background-color: rgb(158, 158, 158);
+  flex-shrink: 1;
 }
 
 .headerNav {
   display: flex;
+  align-items: center;
 }
 
 .headerNav > * {
