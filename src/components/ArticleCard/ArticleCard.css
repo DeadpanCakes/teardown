@@ -10,6 +10,18 @@
   grid-area: desc;
 }
 
+.byline h2 {
+    font-size: 1em;
+}
+
+.bylineSpan {
+    display: flex;
+}
+
+.tag::before {
+    content: "\00a0";
+}
+
 .mainArticle {
   background-color: rgb(59, 59, 59);
   min-height: 350px;
